@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="miniproject.personalityTest.TestFXMLController">
+   <children>
+      <AnchorPane layoutX="-23.0" layoutY="-13.0" prefHeight="62.0" prefWidth="836.0" style="-fx-background-color: #0055ff;">
+         <children>
+            <Label layoutX="36.0" layoutY="20.0" text="Take your Test" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft JhengHei UI" size="27.0" />
+               </font>
+            </Label>
+            <Button fx:id="reset" layoutX="786.0" layoutY="19.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="33.0" style="-fx-background-color: #0055ff;" />
+         </children>
+      </AnchorPane>
+      <ScrollPane layoutY="50.0" prefHeight="356.0" prefWidth="800.0">
+         <content>
+            <AnchorPane fx:id="root" prefHeight="494.0" prefWidth="771.0" />
+         </content>
+      </ScrollPane>
+      <Button fx:id="cancel" layoutX="663.0" layoutY="416.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="123.0" style="-fx-background-color: #ff0000;" text="Cancel" textFill="WHITE" />
+      <HBox layoutX="5.0" layoutY="425.0" prefHeight="17.0" prefWidth="405.0" style="-fx-background-color: white; -fx-border-color: white;">
+         <children>
+            <Pane prefHeight="4.0" prefWidth="20.0" style="-fx-background-color: #ccccb3; -fx-border-color: black;" />
+            <Label text=" Strongly Disagree    " />
+            <Pane prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: #ffffb3; -fx-border-color: black;" />
+            <Label text=" Neutral    " />
+            <Pane prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: #b3ff99; -fx-border-color: black;" />
+            <Label text=" Strongly Agree" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

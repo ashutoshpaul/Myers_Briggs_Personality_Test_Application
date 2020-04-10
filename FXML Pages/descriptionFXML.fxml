@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: #e6ffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="miniproject.personalityTest.descriptionFXMLController">
+   <children>
+      <Label fx:id="serverStatus" layoutX="5.0" layoutY="430.0" text="Cannot connect to the server. Please try again later." textFill="RED" />
+      <Button fx:id="back" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="37.0" style="-fx-background-color: #e6ffff;" />
+      <Label fx:id="personalityTag" layoutX="110.0" layoutY="28.0" prefHeight="36.0" prefWidth="681.0" text="&lt;tag&gt;">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Separator layoutX="101.0" layoutY="64.0" prefHeight="7.0" prefWidth="669.0" />
+      <Label fx:id="personalityName" layoutX="110.0" layoutY="101.0" prefHeight="36.0" prefWidth="681.0" text="&lt;tag-name&gt;" textFill="#0f0097">
+         <font>
+            <Font name="Microsoft JhengHei Light" size="24.0" />
+         </font>
+      </Label>
+      <TextFlow layoutX="125.0" layoutY="172.0" prefHeight="166.0" prefWidth="551.0">
+         <children>
+            <Text fx:id="description" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;description&gt;">
+               <font>
+                  <Font name="Microsoft JhengHei UI" size="13.0" />
+               </font>
+            </Text>
+         </children>
+      </TextFlow>
+      <Label layoutX="33.0" layoutY="378.0" text="People like you:">
+         <font>
+            <Font name="Microsoft YaHei" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="likePersonalityPeople" layoutX="155.0" layoutY="378.0" prefHeight="21.0" prefWidth="635.0" text="&lt;likePersonalityPeople&gt;" textFill="#14a81c">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

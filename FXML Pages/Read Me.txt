@@ -1,0 +1,2 @@
+Store these FXML pages in the directory containing .class files.
+Remember, the .class files directory has a tendency to delete the fxml pages, so have a backup.

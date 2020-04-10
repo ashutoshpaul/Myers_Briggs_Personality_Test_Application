@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="miniproject.personalityTest.homeScreenFXMLController">
+   <children>
+      <Pane layoutX="-40.0" layoutY="108.0" prefHeight="396.0" prefWidth="903.0" rotate="-6.3" style="-fx-background-color: #ccffff;">
+         <children>
+            <Pane layoutX="-16.0" layoutY="-23.0" prefHeight="117.0" prefWidth="941.0" style="-fx-background-color: #ffffb3;" />
+            <Button fx:id="about" layoutX="285.0" layoutY="169.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="308.0" rotate="6.3" style="-fx-background-color: #ffd633;" text="About Personalty Test">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="takeTest" layoutX="281.0" layoutY="207.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="308.0" rotate="6.3" style="-fx-background-color: #1a75ff;" text="Take Test" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="developer" layoutX="692.0" layoutY="342.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="121.0" rotate="6.3" style="-fx-background-color: #00b33c;" text="About Developer" textFill="WHITE" />
+            <Button fx:id="aboutApp" layoutX="596.0" layoutY="330.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="87.0" rotate="6.3" style="-fx-background-color: #888844;" text="About App" textFill="WHITE" />
+         </children></Pane>
+      <Pane layoutX="-60.0" layoutY="-63.0" prefHeight="238.0" prefWidth="907.0" rotate="-6.3" style="-fx-background-color: #ffffb3;">
+         <children>
+            <Label layoutX="260.0" layoutY="144.0" rotate="6.3" text="Myers and Briggs Personality Test" textFill="#2c006e">
+               <font>
+                  <Font name="Microsoft YaHei UI Bold" size="22.0" />
+               </font>
+            </Label>
+         </children></Pane>
+   </children>
+</AnchorPane>

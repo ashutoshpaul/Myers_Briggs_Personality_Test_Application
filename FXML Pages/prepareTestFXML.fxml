@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: #e6ffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="miniproject.personalityTest.prepareTestFXMLController">
+   <children>
+      <Button fx:id="test" layoutX="259.0" layoutY="386.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="286.0" text="Take Test" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="79.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/image1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="300.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/image2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="522.0" layoutY="173.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/image3.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="58.0" layoutY="36.0" text="Take Personality Test">
+         <font>
+            <Font name="Microsoft JhengHei UI" size="23.0" />
+         </font>
+      </Label>
+      <Separator layoutX="41.0" layoutY="71.0" prefHeight="0.0" prefWidth="720.0" />
+      <Label layoutX="237.0" layoutY="98.0" text="This test comprises of general day-to-day 40 questions.">
+         <font>
+            <Font name="Microsoft JhengHei UI Light" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="332.0" text="Note: Please note that this Application is still under development. So, the test results cannot be completely trusted.">
+         <font>
+            <Font name="Microsoft JhengHei UI" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="back" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="34.0" style="-fx-background-color: #e6ffff;" />
+   </children>
+</AnchorPane>

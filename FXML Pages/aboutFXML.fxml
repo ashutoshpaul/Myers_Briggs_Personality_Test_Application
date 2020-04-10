@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: #e6ffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="miniproject.personalityTest.aboutFXMLController">
+   <children>
+      <Button fx:id="back" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="37.0" style="-fx-background-color: #e6ffff;" />
+      <Label layoutX="80.0" layoutY="32.0" text="Myers and Briggs Personality Test">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Separator layoutX="66.0" layoutY="75.0" prefHeight="2.0" prefWidth="700.0" />
+      <TextFlow layoutX="72.0" layoutY="112.0" prefHeight="65.0" prefWidth="656.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="The Myers-Briggs Personality Type Indicator is a self-report inventory designed to identify a person's personality type, strengths, and preferences. The questionnaire was developed by Isabel Myers and her mother Katherine Briggs based on their work with Carl Jung's theory of personality types.">
+               <font>
+                  <Font name="Microsoft JhengHei Light" size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </TextFlow>
+      <ComboBox fx:id="personalityTypes" layoutX="623.0" layoutY="13.0" prefHeight="26.0" prefWidth="165.0" promptText="Personality Types" style="-fx-background-color: #4da6ff;" />
+      <Button fx:id="visitWebsite" layoutX="354.0" layoutY="297.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="92.0" text="Visit Website" />
+   </children>
+</AnchorPane>
